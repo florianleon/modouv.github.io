@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>BubbleHunt</title>
+<link rel="stylesheet" media="screen" href="./css/styles.css" type="text/css"/>
+<script src="./js/jquery.js" ></script>
+<script src="./js/code.js"></script>
+</head>
+<body>
+<div id="ecranAccueil" class="centrer">
+    <div id="titre">BubbleHunt</div>
+    <br>
+    <div id="image"><img src="./images/imageAccueil.png" width="550" height="400"></div>
+    <div id="regles"><p>Déplacez la bulle <span class="blue">bleue</span> avec la souris pour attraper les seules bulles <span class="green">vertes</span></p></div> 
+    <div id="boutonJouer"><input type="submit" value="Jouer" class="bouton"></div>
+</div>
+<div id="ecranJeu" class="centrer">
+    <div id="score">(score)</div>
+    <div id="niveau">(niveau)</div>
+    <div id="vies">(vies)</div>
+    <div id="temps">(temps)</div>
+    <div id="animation">
+        <canvas id="dessin" width="550" height="400">
+        Texte pour les navigateurs qui ne supportent pas canvas
+        </canvas>
+    </div>
+
+    <div id="boutonQuitter"><input type="submit" value="Quitter" class="bouton"></div>
+</div>
+<div id="ecranBilan" class="centrer">
+    <div id="scoreFinal">(score)</div>
+    <div id="niveauFinal">(niveau)</div>
+    <div id="boutonAccueil"><input type="submit" value="Accueil" class="bouton"></div>
+    <div id="boutonRejouer"><input type="submit" value="Rejouer" class="bouton"></div>
+</div>
+<br>
+<footer>BubbleHunt v1.1</footer> 
+</body>
+</html>

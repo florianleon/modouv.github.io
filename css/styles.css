@@ -1,0 +1,56 @@
+body {
+    background-color: #ccc;
+}
+
+* {
+    font-family: "Arial", sans-serif;
+    /* font-size: 12px; */
+    font-size: 20px;
+    color: #000;
+}
+
+#titre {
+    /* font: bold 16pt sans-serif; */
+    font: bold 24pt sans-serif;
+    color: red;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+.bouton {
+    background-color: rgb(15, 60, 207); 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.bouton:hover {
+    cursor: pointer;
+    background-color: #FFF;
+    color: rgb(15, 60, 207);
+}
+
+.centrer {
+    text-align: center;
+    margin-top: 128px;
+}
+
+#regles p {
+    color: rgb(61, 61, 61);
+}
+
+#regles .blue {
+    color: #00f;
+}
+
+#regles .green {
+    color: #00c000;
+}
